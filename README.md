@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DeliverIQ - E-Commerce Deliverability Checker
 
 DeliverIQ is a production-ready e-commerce web application that leverages AI to predict deliverability and enhance the shopping experience. Built with Python and Streamlit, it includes features like user authentication, AI-powered predictions, and hybrid UI design.
@@ -39,3 +40,6 @@ DeliverIQ is a production-ready e-commerce web application that leverages AI to 
    ```
 
    Access the app at `http://localhost:8501`.
+=======
+# DeliveryIQ
+>>>>>>> 7ea350fe7858759cc2bfb9a94286167bd383a736
