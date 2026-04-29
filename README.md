@@ -41,5 +41,13 @@ DeliverIQ is a production-ready e-commerce web application that leverages AI to 
 
    Access the app at `http://localhost:8501`.
 =======
+| Name | Roll Number / ID | Role / Contribution |
+|------|-----------------|---------------------|
+| Ranjith B | 24BCS221 | Data Processing, ML Integration |
+| Rohith D | 24BCS228 | UI/UX, Dashboard |
+| Dhiyashini B | 24BCS070 | Documentation, Testing |
+| Kanishka M | 24BCS120 | Documentation, Testing |
 # DeliveryIQ
 >>>>>>> 7ea350fe7858759cc2bfb9a94286167bd383a736
+>>>>>>>
+>>>>>>> 
