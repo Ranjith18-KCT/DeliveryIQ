@@ -1,32 +1,41 @@
-# DeliverIQ
+# DeliverIQ - E-Commerce Deliverability Checker
 
-DeliverIQ is an E-Commerce Deliverability Checker web application built with Python and Streamlit. It features AI-powered delivery predictions and a nearest agency finder.
+DeliverIQ is a production-ready e-commerce web application that leverages AI to predict deliverability and enhance the shopping experience. Built with Python and Streamlit, it includes features like user authentication, AI-powered predictions, and hybrid UI design.
 
 ## Features
 
-- **Authentication System:** Secure user login and registration with hashed passwords.
-- **Product Catalog:** A responsive hybrid e-commerce interface with search and filters.
-- **Deliverability Checker:** AI-driven delivery time predictions based on user location (Coimbatore district).
-- **Agency Finder:** Identifies the nearest delivery hubs for optimized routing.
-- **Shopping Cart:** Full cart functionality and checkout process.
+- **User Authentication**: Secure login and registration.
+- **AI-Powered Deliverability Prediction**: Predict delivery feasibility using DNN models.
+- **Delivery Hub Locator**: Find the nearest delivery agencies.
+- **Interactive Map View**: Visualize delivery hubs.
+- **Hybrid UI Design**: Combines Amazon and Flipkart aesthetics.
+
+## Project Structure
+
+```
+├── app.py                    # Main application
+├── auth.py                   # Authentication logic
+├── delivery_logic.py         # Deliverability predictions
+├── products.py               # Product catalog
+├── ui_components.py          # Reusable UI components
+├── styles.css                # Custom CSS
+├── users.json                # User data storage
+├── requirements.txt          # Dependencies
+└── README.md                 # Project documentation
+```
 
 ## Quick Start
 
-1. **Install dependencies**:
+1. **Install Dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Run the application**:
+2. **Run the Application**:
+
    ```bash
    streamlit run app.py
    ```
-   *The app will be available at `http://localhost:8501`*
 
-## Documentation
-
-For detailed information, please refer to the included guides:
-- `README_DELIVERIQ.md`: Detailed feature guide
-- `SETUP_GUIDE.md`: Full installation & setup
-- `ARCHITECTURE.md`: System design
-- `DNN_INTEGRATION_GUIDE.md`: Machine learning model integration
+   Access the app at `http://localhost:8501`.
